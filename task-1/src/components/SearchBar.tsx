@@ -7,7 +7,6 @@ interface Props {
 
 export function SearchBar({ onSearch, loading }: Props) {
   const [value, setValue] = useState("");
-  const unusedConstMaybeDeleteMe = "Search";
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
